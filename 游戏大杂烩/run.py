@@ -36,6 +36,7 @@ def makeTextObjs(text, font, color):
   return surf, surf.get_rect()
 
 def SelectGameMenu():
+    global DISPLAYSURF
     game1= pygame.image.load(select_game_menu_image_path + 'game1.jpg')
     game2= pygame.image.load(select_game_menu_image_path + 'game2.jpg')
     game3= pygame.image.load(select_game_menu_image_path + 'game3.jpg')
@@ -43,7 +44,7 @@ def SelectGameMenu():
     icon = pygame.image.load(select_game_menu_image_path + 'icon.png')
     pygame.display.set_icon(icon)
     while True:
-        DISPLAYSURF = pygame.display.set_mode(SIZE)
+        
         DISPLAYSURF.blit(game1,(0,0))
         DISPLAYSURF.blit(game2,(SIZE[0]/2,0))
         DISPLAYSURF.blit(game3,(0,SIZE[1]/2))
@@ -65,6 +66,7 @@ def SelectGameMenu():
                     Tetris.main()
                 elif x > SIZE[0]/2 and y > SIZE[1] /2:
                     game2048.main()
+                DISPLAYSURF = pygame.display.set_mode(SIZE)
                 pygame.display.set_caption(u'游戏平台')
                 icon = pygame.image.load(select_game_menu_image_path + 'icon.png')
                 pygame.display.set_icon(icon)

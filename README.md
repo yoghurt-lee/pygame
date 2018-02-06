@@ -2,26 +2,15 @@
 ### 软工作业写的pygame小游戏平台
 - 主页面
 
-![Markdown](http://i4.buimg.com/584643/09ee09475c2f987a.png)
-- 选择游戏页面
-
-![Markdown](http://i4.buimg.com/584643/84ccb3c4abb61f18.png)
-
-- Flappy Brids
-
-![Markdown](http://i4.buimg.com/584643/5a45a41da6eea37a.png)
+![Markdown](http://yoghurt-lee.online/img/pygame%E5%AE%9E%E7%8E%B0%E8%B4%AA%E5%90%83%E8%9B%87%E5%92%8C2048_1.png)
 
 - 贪吃蛇
 
-![Markdown](http://i4.buimg.com/584643/612ae44cc47edb4b.png)
-
-- 俄罗斯方块
-
-![Markdown](http://i4.buimg.com/584643/bfb33f2a2f879568.png)
+![Markdown](http://yoghurt-lee.online/img/pygame%E5%AE%9E%E7%8E%B0%E8%B4%AA%E5%90%83%E8%9B%87%E5%92%8C2048_2.png)
 
 - 2048
 
-![Markdown](http://i4.buimg.com/584643/e9933cee1faca4f0.png)
+![Markdown](http://yoghurt-lee.online/img/pygame%E5%AE%9E%E7%8E%B0%E8%B4%AA%E5%90%83%E8%9B%87%E5%92%8C2048_3.png)
 
 ### 游戏运行
 
